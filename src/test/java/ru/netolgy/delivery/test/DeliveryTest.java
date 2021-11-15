@@ -47,4 +47,4 @@ class DeliveryTest {
         // имени и номера телефона без создания пользователя в методе generateUser(String locale) в дата генераторе
     }
 }
-//java -jar ./artifacts/app-card-delivery.jar  git add -f ./artifacts/app-card-delivery.jar
+
