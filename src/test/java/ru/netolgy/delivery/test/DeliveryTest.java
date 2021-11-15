@@ -37,7 +37,7 @@ class DeliveryTest {
         $$("button").find(exactText("Запланировать")).click();
         $$("button").find(exactText("Перепланировать")).click();
         $(".notification__content").should(visible, ofSeconds(15)).shouldBe(
-                exactTextCaseSensitive("стреча успешно запланирована на "
+                exactTextCaseSensitive("Встреча успешно запланирована на "
                 + secondMeetingDate));
 
         // TODO: добавить логику теста в рамках которого будет выполнено планирование и перепланирование встречи.
